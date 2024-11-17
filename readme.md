@@ -64,16 +64,16 @@ MONGODB_URI=<Your MongoDB connection URI>
 ## API Endpoints
 
 - `POST /api/v1/healthService` - Add a new health service
-  <img src="src\Images\create.png" alt="" height="300" />
+  <img src="src\Images\createService.png" alt="" height="300" />
 
 - `GET /api/v1/healthService` - Get all health services with filters and sorting
-  <img src="src\Images\findMany.png" alt="" height="300" />
+  <img src="src\Images\getServices.png" alt="" height="300" />
 
 - `PATCH /api/v1/healthService/:id ` - Update a health service by ID
-  <img src="src\Images\update.png" alt="" height="300" />
+  <img src="src\Images\updateServices.png" alt="" height="300" />
 
 - `DELETE /api/v1/healthService/:id` - Delete a health service by ID
-  <img src="src\Images\delete.png" alt="" height="300" />
+  <img src="src\Images\deleteService.png" alt="" height="300" />
 
 - `GET /api/v1/healthService/:id` - Fetch details of a single health service by its ID
-  <img src="src\Images\findOne.png" alt="" height="300" />
+  <img src="src\Images\getService.png" alt="" height="300" />
