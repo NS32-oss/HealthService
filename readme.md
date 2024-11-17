@@ -67,7 +67,7 @@ MONGODB_URI=<Your MongoDB connection URI>
   <img src="src\Images\createService.png" alt="" height="300" />
 
 - `GET /api/v1/healthService` - Get all health services with filters and sorting
-  <img src="src\Images\getServices.png" alt="" height="300" />
+  <img src="src\Images\getService.png" alt="" height="300" />
 
 - `PATCH /api/v1/healthService/:id ` - Update a health service by ID
   <img src="src\Images\updateService.png" alt="" height="300" />
@@ -76,4 +76,4 @@ MONGODB_URI=<Your MongoDB connection URI>
   <img src="src\Images\deleteService.png" alt="" height="300" />
 
 - `GET /api/v1/healthService/:id` - Fetch details of a single health service by its ID
-  <img src="src\Images\getService.png" alt="" height="300" />
+  <img src="src\Images\getServices.png" alt="" height="300" />
