@@ -70,7 +70,7 @@ MONGODB_URI=<Your MongoDB connection URI>
   <img src="src\Images\getServices.png" alt="" height="300" />
 
 - `PATCH /api/v1/healthService/:id ` - Update a health service by ID
-  <img src="src\Images\updateServices.png" alt="" height="300" />
+  <img src="src\Images\updateService.png" alt="" height="300" />
 
 - `DELETE /api/v1/healthService/:id` - Delete a health service by ID
   <img src="src\Images\deleteService.png" alt="" height="300" />
