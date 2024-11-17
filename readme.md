@@ -49,7 +49,7 @@ The Health Services Backend is a RESTful API built using Node.js, Express.js, an
 Create a `.env` file in the root directory of the project and configure the following environment variables:
 
 ```bash
-PORT=5000
+PORT=8000
 MONGODB_URI=<Your MongoDB connection URI>
 ```
 
