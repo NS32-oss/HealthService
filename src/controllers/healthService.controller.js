@@ -82,7 +82,8 @@ const updateHealthService = asyncHandler(async (req, res) => {
     availability,
     languageSupported,
   } = req.body;
-
+  console.log(healthServiceId);
+console.log(req.body);
   // Create an object with the fields to update
   const objectField = {};
   if (serviceName) objectField.serviceName = serviceName;
@@ -95,7 +96,7 @@ const updateHealthService = asyncHandler(async (req, res) => {
   if (category) objectField.category = category;
   if (availability) objectField.availability = availability;
   if (languageSupported) objectField.languageSupported = languageSupported;
-
+console.log(objectField);
   // Update the health service and return the updated document
   const healthService = await HealthService.findByIdAndUpdate(
     healthServiceId,
